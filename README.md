@@ -27,9 +27,9 @@ A B & C ! |
 1 1 1 0 1 1
 1 1 1 1 0 1
 ```
-The last column is the final outcome, the columns under the letters are what they were initally set to *(in the first row they are all 0s then it goes through every combination till they are all 1s).* The columns under the symbols are sub sets to the solution, so like under the `&` it is the result when the `A` and `B` where AND togther. Similarly under the `!` is the NOT of `C`
+The last column is the final outcome, the columns under the letters are what they were initally set to *(in the first row they are all 0s then it goes through every combination till they are all 1s).* The columns under the symbols are sub sets to the solution, so like under the `&` it is the result when the `A` and `B` were AND togther. Similarly under the `!` is the NOT of `C`
 
-Lets do one more `AB|AB&!&` *or `A|B&!(A&B)`*
+Lets do one more `AB|AB&!&` *or `(A|B)&!(A&B)`*
 ```
 A B | A B & ! &
 0 0 0 0 0 0 1 0
