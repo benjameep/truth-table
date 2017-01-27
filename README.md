@@ -1,5 +1,5 @@
 # Post-Fix Truth Table Generator
-A little python file that creates your school assinment truth tables
+A little python file that creates your school assigned truth tables
 
 ### What does post-fix mean?
 Good question. It means that you put the math symbol after the variables, so instead of saying `A+B` you say `AB+` it is confusing at first, but doing post fix is the easiest way to program expressions, because you don't have to worry about order of operations or parenthesis or anything. For example `(A+B)*C` is `AB+C*` in postfix. It takes a while to get used to it but you'll get it!
