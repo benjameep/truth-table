@@ -15,7 +15,7 @@ Symbol | Expression
 `!` or `~` | NOT
 
 ### Now what is a Truth Table?
-It is when you take your exprression such as `AB&C!|` *or `(A&B)|!C` * and evaluate every possible outcome
+It is when you take your expression such as `AB&C!|` *or `(A&B)|!C`* and evaluate every possible outcome
 ```
 A B & C ! |
 0 0 0 0 1 1
