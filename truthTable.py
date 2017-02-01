@@ -32,6 +32,14 @@ while True:
                 math[-2] = math[-2] ^ math[-1]
                 print(int(math[-2]),end=' ')
                 del math[-1]
+            elif j == '>':
+                math[-2] = math[-2] <= math[-1]
+                print(int(math[-2]),end=' ')
+                del math[-1]
+            elif j == '<':
+                math[-2] = math[-2] >= math[-1]
+                print(int(math[-2]),end=' ')
+                del math[-1]
             elif j == '!' or j == '~' or j == '`':
                 math[-1] = not math[-1]
                 print(int(math[-1]),end=' ')

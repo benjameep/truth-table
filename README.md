@@ -13,6 +13,8 @@ Symbol | Expression
 `|` | OR
 `^` | XOR
 `!` or `~` | NOT
+`>` | IF..THEN
+`<` | THEN..IF
 
 ### Now what is a Truth Table?
 It is when you take your exprression such as `AB&C!|` *or `(A&B)|!C` * and evaluate every possible outcome
